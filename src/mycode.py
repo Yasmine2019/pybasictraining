@@ -1,4 +1,6 @@
+
+
 x=3
 print (x)
-3
-
+z = 7
+print (7)
