@@ -5,6 +5,9 @@ print (s)
 b = False
 print (b)
 def do_something():
+   print("This is a function called do_something")
+
+
 
 
 
