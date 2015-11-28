@@ -5,6 +5,6 @@ print (s)
 b = False
 print (b)
 def do_something():
-   print("function do_something")
+
 
 
