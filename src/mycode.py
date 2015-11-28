@@ -4,8 +4,8 @@ s = "I am a string"
 print (s)
 b = False
 print (b)
-def do_something():
-   print("This is a function called do_something")
+def do_something(x1, x2):
+  print("x1 = %d and x2 = %d" %(x1, x2))
 
 
 
