@@ -10,7 +10,7 @@ def do_something(x1, x2):
 	return x1 * x2
 	print("x1 * x2 = %d"%(x1 * x2))
   
-def keyword_fn(keyword = None)
+def keyword_fn(keyword = None):
 	print("default value of keyword is None")
 	
 
