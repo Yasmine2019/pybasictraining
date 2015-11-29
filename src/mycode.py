@@ -1,13 +1,18 @@
-x=3
-print (x)
+x = 3
+print(x)
 s = "I am a string"
-print (s)
+print(s)
 b = False
-print (b)
+print(b)
+
 def do_something(x1, x2):
-  """This does something"""
-  return x1 * x2
-  print("x1 * x2 = %d"%(x1 * x2))
+	"""This does something"""
+	return x1 * x2
+	print("x1 * x2 = %d"%(x1 * x2))
+  
+def keyword_fn(keyword = None)
+	print("default value of keyword is None")
+	
 
 
 
