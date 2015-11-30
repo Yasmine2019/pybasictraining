@@ -12,9 +12,9 @@ def do_something(x1, x2):
   
 def keyword_fn(keyword = None):
 	if keyword == None:
-		print("No")
+		return "No"
 	else:
-		print(keyword + 2)
+		return keyword + 2
 
 	
 
