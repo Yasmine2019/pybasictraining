@@ -11,9 +11,10 @@ def do_something(x1, x2):
 	print("x1 * x2 = %d"%(x1 * x2))
   
 def keyword_fn(keyword = None):
-	if keyword == None
+	if keyword == None:
 		print("No")
-	else print(keyword + 2)
+	else:
+		print(keyword + 2)
 
 	
 
