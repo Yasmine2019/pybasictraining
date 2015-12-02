@@ -17,5 +17,5 @@ def keyword_fn(keyword = None):
 		return keyword + 2
 	
 def return_many(x1, x2, x3):
-	return x1
+	return(x1 + 2, x2 + 2, x3 + 2)
 	
