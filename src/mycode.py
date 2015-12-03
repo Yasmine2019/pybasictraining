@@ -19,6 +19,8 @@ def keyword_fn(keyword = None):
 def return_many(r1, r2, r3):
 	return(r1 + 2, r2 + 2, r3 + 2)
 
-return_many(1, 2, 3)
+r1, r2, r3 = return_many(1, 2, 3)
+
+import some_library[
 
 
