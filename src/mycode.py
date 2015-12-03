@@ -21,6 +21,6 @@ def return_many(r1, r2, r3):
 
 r1, r2, r3 = return_many(1, 2, 3)
 
-import some_library[
-
+import some_library
+	
 
