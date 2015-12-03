@@ -19,5 +19,5 @@ def keyword_fn(keyword = None):
 def return_many(x1, x2, x3):
 	return(x1 + 2, x2 + 2, x3 + 2)
 	
-k = return_many(1, 2, 3)
-print(k)
+return_many(1, 2, 3)
+
