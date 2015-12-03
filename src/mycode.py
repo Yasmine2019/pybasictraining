@@ -22,5 +22,6 @@ def return_many(r1, r2, r3):
 r1, r2, r3 = return_many(1, 2, 3)
 
 import some_library
-	
+from some_library import return_val
 
+some_library.
