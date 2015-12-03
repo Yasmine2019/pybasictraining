@@ -18,10 +18,7 @@ def keyword_fn(keyword = None):
 	
 def return_many(r1, r2, r3):
 	return(r1 + 2, r2 + 2, r3 + 2)
-	r1 == 1
-	r2 == 2
-	r3 == 3
 
-return_many(r1, r2, r3)
+
 
 
