@@ -22,6 +22,8 @@ def return_many(r1, r2, r3):
 r1, r2, r3 = return_many(1, 2, 3)
 
 import some_library
-from some_library import return_val
-
-some_library.
+some_library.i_am_a_teapot()
+teapot = some_library.i_am_a_teapot()
+def gonna_call_stuff(z):
+	print(z)
+	
