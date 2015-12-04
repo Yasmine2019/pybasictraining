@@ -15,7 +15,6 @@ def keyword_fn(keyword = None):
 		return "No"
 	else:
 		return keyword + 2
-<<<<<<< HEAD
 		
 def return_many(x1, x2, x3):
 	return(x1 + 2, x2 + 2, x3 + 2)
@@ -24,3 +23,6 @@ r1, r2, r3 = return_many(1, 2, 3)
 
 import some_library
 teapot = some_library.i_am_a_teapot()
+
+def gonna_call_stuff(p):
+	return some_library.multiply_by_2(p)
