@@ -29,6 +29,9 @@ def gonna_call_stuff(p):
 
 t1 = ()
 t2 = (False, )
-
+t3 = (None,) * 32000
+t4 = ('foo', 1, False)
+t5 = t4[0]
+def measure_tuple(t):
 
 
