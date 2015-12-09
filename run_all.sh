@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd `dirname $0`/tests/
-PYTHONPATH="../src" python -m pytest -l $@
+PYTHONPATH="../src" python3.4 -m pytest -l $@
