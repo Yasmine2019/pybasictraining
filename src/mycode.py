@@ -40,7 +40,3 @@ def sum_tuple(e):
 		return e[0] + e[1] + e[2] + e[3] + e[4]
 	else:
 		return None
-
-	
-
-		
