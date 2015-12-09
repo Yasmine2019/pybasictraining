@@ -28,5 +28,7 @@ def gonna_call_stuff(p):
 	return some_library.multiply_by_2(p)
 
 t1 = ()
+t2 = (False, )
+
 
 
