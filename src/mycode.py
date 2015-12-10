@@ -57,7 +57,13 @@ def sum_list(e):
 		return None
 
 def wopit(l): 
-	u = l[0]
-	l.pop(l[0])
-	l.append(u)
-	return None
+	if len(l) != 0:
+		l.append(l[0])
+
+def bopit(l): 
+	if len(l) != 0:
+		l.pop(-1)
+
+def mopit(l): 
+	if len(l) != 0:
+		l.pop(0)
