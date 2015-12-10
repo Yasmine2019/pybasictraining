@@ -40,3 +40,24 @@ def sum_tuple(e):
 		return e[0] + e[1] + e[2] + e[3] + e[4]
 	else:
 		return None
+
+l1 = []
+l2 = [False, ]
+l3 = [None,] * 32000
+l4 = ['foo', 1, False]
+l5 = l4[0]
+
+def measure_list(t):
+	return len(t)
+
+def sum_list(e):
+	if len(e) == 5:
+		return e[0] + e[1] + e[2] + e[3] + e[4]
+	else:
+		return None
+
+def wopit(l): 
+	u = l[0]
+	l.pop(l[0])
+	l.append(u)
+	return None
