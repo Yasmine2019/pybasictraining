@@ -67,3 +67,16 @@ def bopit(l):
 def mopit(l): 
 	if len(l) != 0:
 		l.pop(0)
+
+def zopit(l):
+	for x in range(len(l)):
+		if l[x] == 'item' and x > 100:
+			return True
+	return False
+
+d1 = {}
+d2 = { 'k1' : 'item', 'k2' : (1, 2) }
+d3 = d2['k2']
+
+
+
