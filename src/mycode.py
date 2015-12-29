@@ -123,11 +123,33 @@ mine = MyClass('Hi')
 mine2 = MyClass('Hi')
 
 class StateMachine:
-	def __init__(self, init_state):
-		self.init_state = init_state
+	count1 = 0
+	count2 = 0
+	def __init__(self, current_state):
+		self.current_state = current_state
 	@property
 	def state(self):
-		return self.init_state
+		return self.current_state
 		
 	def reset(self): 
-		self.init_state = 'init'
+		self.current_state = 'init'
+
+	def process(self, sensed = False):
+		if self.current_state == 'init':
+			if sensed == True:
+				self.current_state = 'running'
+			return sensed
+		elif self.current_state == 'running':
+			self.count2 += 1
+			if self.count2 == 20:
+				self.current_state = 'slowing'
+				self.count2 = 0
+			return True
+		elif self.current_state == 'slowing':
+			self.count1 += 1
+			if self.count1 == 10:
+				self.current_state = 'init' 			
+				self.count1 = 0
+			return True
+
+		
