@@ -121,3 +121,13 @@ class MyClass:
 
 mine = MyClass('Hi')
 mine2 = MyClass('Hi')
+
+class StateMachine:
+	def __init__(self, init_state):
+		self.init_state = init_state
+	@property
+	def state(self):
+		return self.init_state
+		
+	def reset(self): 
+		self.init_state = 'init'
