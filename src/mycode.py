@@ -119,3 +119,5 @@ class MyClass:
 			return None
 
 
+mine = MyClass('Hi')
+mine2 = MyClass('Hi')
