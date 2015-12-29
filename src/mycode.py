@@ -35,6 +35,7 @@ t5 = t4[0]
 def measure_tuple(t):
 	return len(t)
 
+
 def sum_tuple(e):
 	if len(e) == 5:
 		return e[0] + e[1] + e[2] + e[3] + e[4]
@@ -78,5 +79,43 @@ d1 = {}
 d2 = { 'k1' : 'item', 'k2' : (1, 2) }
 d3 = d2['k2']
 
+def superd(d):
+	for key in range(1, 10001):
+		value = '%s' % key
+		d.update({key:value})
+
+
+class MyClass:	
+
+	clsvar = 3
+
+	def __init__(self, instvar):
+		self.instvar = instvar
+		if self.instvar == 'Hi':
+			self.instvar = 'Hello'
+
+	def add5(self, a):
+		self.instvar = self.instvar + a + 5
+		if self.instvar > 100:
+			return True
+		else:
+			return False
+
+	@property
+	def prop(self):
+		return 'hi'
+
+	@prop.setter
+	def prop(self, value):
+		self._prop = value
+
+	def a(self, instvar1):
+		self.instvar1 = instvar1
+
+	def b(self):
+		if (hasattr(self, "instvar1")):
+			return self.instvar1
+		else:
+			return None
 
 
